@@ -2,6 +2,7 @@
 #include<bits/stdc++.h> 
 using namespace std; 
 
+// Macros
 #define COMPUTER 1 
 #define HUMAN 2 
 
@@ -10,7 +11,7 @@ using namespace std;
 #define COMPUTERMOVE 'O' 
 #define HUMANMOVE 'X' 
 
-
+//Function to show the board after every function call
 void showBoard(char board[][SIDE]) 
 { 
 	
