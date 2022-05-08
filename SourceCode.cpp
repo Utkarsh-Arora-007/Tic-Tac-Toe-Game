@@ -44,7 +44,7 @@ void initialise(char board[][SIDE])
 			board[i][j] = '*'; 
 	} 
 } 
-
+//Function to Choose Winner
 void declareWinner(int whoseTurn) 
 { 
 	if (whoseTurn == COMPUTER) 
