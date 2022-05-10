@@ -34,7 +34,7 @@ void showInstructions()
 	printf("\t\t\t 7 | 8 | 9 \n\n"); 
 } 
 
-
+//Function to initialize the board to start the game
 void initialise(char board[][SIDE]) 
 {	
 	// Initially the board to '*' as said 
