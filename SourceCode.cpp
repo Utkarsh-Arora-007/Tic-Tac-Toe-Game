@@ -92,7 +92,7 @@ bool diagonalCrossed(char board[][SIDE])
 	return(false); 
 } 
 
-
+//Function to check whether game is over or not
 bool gameOver(char board[][SIDE]) 
 { 
 	return(rowCrossed(board) || columnCrossed(board) || diagonalCrossed(board) ); 
